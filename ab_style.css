@@ -1,0 +1,118 @@
+*{
+    padding:0 0 0px;
+    margin:0;
+}
+body{
+    background-color: dimgray;
+}
+
+.main{
+    width:100%;
+    height:20px;
+    background-color:darkkhaki;
+    position:relative;
+    background-image: url("D:\PROJECT1\online bookshop\images\bt2.jpg");
+    background-repeat: no-repeat;
+    background-size:570px;
+    background-position: right bottom;
+    /*background-color: blueviolet;*/
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:2px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    padding:10px 50px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,.05);
+
+}
+.menu{
+    display:flex;
+}
+.menu li a{
+    padding:10px 15px;
+    color:rgb(98, 0, 255);
+    font-size:12px;
+}
+.logo{
+    width:20px;
+    height:35px;
+   border-image-repeat: space;
+   margin-bottom: 50px;
+    
+}
+.menu li a:hover,.active{
+    background-color: rgb(255, 127, 246);
+
+    font-weight:700;
+    transition: all ease 0.4s;
+}
+.ab1{
+    margin:30px;
+    padding:5px;
+}
+.ab1 h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align:center;
+    color:darkmagenta;
+   /* font-weight: bold;*/
+    /*font-size:xx-large;*/
+}
+.ab1 p{
+    text-align:center;
+    padding:3px;
+    color:rgb(120, 220, 20);
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top:20px;
+    background-color: beige;
+    padding:80px,30px ;
+    box-shadow:0 0 9px rgba(0,0,0.6)
+}
+.about-item i{
+    align-items: center;
+    font-size:43px;
+    margin:0px;
+}
+.about-item h3{
+    
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width:46px;
+    height:5px;
+    background-color: coral;
+    margin: 0 auto;
+    border:none;
+}
+.about-item p{
+    margin-top: 20px;
+}
+.about-item:hover{
+    background-color: rgb(212, 255, 0);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+          color:darkmagenta;
+}
+.about-item:hover hr{
+    background-color:dodgerblue;
+}
+footer{
+    background-color: black;
+    padding: 15px;
+}
+footer p{
+    font-weight: 40px;
+    color:azure;
+}
